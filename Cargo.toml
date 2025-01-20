@@ -1,7 +1,12 @@
 [package]
 name = "guessing_game"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2021"
+authors = ["Marcos Alonso <kitosforos@gmail.com>"]
+description = "Una aplicación CLI para gestionar finanzas personales"
 
 [dependencies]
+chrono = "0.4.39"
+colored = "3.0.0"
 rand = "0.8.5"
+rusqlite = "0.33.0"
